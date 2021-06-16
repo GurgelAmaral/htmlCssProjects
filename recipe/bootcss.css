@@ -1,0 +1,240 @@
+
+nav{
+    color: black;
+    /* background-color: rgba(255, 99, 71, 0.589); */
+ 
+}
+
+#titlenav{
+    color: white;
+    /* padding: 10px; */
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo-fixer{
+    display: flex;
+    flex-direction: column;
+}
+
+small{
+    font-size: .9rem;
+    margin-left: 7px;
+    margin-top: -10px;
+}
+
+#nav-div{
+    background-color: rgba(255, 99, 71, 0.253);
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    padding: 10px;
+}
+
+.myclass{
+    color: rgba(255, 255, 255, 0.616);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    border: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-style: italic; */
+}
+
+.myclass:hover{
+    transition: all .4s;
+    background-color: rgb(255, 148, 129);
+    color: white;
+}
+
+#nav-div:hover{
+    transition: all .4s;
+    /* background-color: rgb(216, 56, 27); */
+    background-color:  rgb(255, 122, 98);
+
+}
+
+.inps{
+    width: 200px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#card-div{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+
+.card-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6rem;
+    color: #1d1e20;
+    /* text-align: center; */
+}
+
+.card{
+    box-shadow: 0px 2px 20px grey;
+    border-radius: 16px;
+}
+
+.btn-cards{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 102, 75);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn-cards:hover{
+    transform: scale(1.12);
+    transition: .4s;
+}
+.ads1{
+    background-color: #1d1e20;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+    height: 110px;
+    color: white;
+}
+.centralizer{
+    display: flex;
+    justify-content: center;
+}
+
+.tits{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #1d1e20;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+    /* padding: 10px; */
+    align-items: center;
+}
+
+#accords1{
+    width: 100%;
+}
+
+#main-pic{
+    height: 100%;
+}
+
+.form-floating{
+    width: 100%;
+}
+
+.label-sign{
+    font-size: 1rem;
+    color: #1d1e20;
+}
+
+
+#sign-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-inps{
+    width: 300px;
+    /* background-color: rgb(231, 230, 230); */
+    /* border-radius: 19px; */
+    outline: none;
+    color: #1d1e20;
+    /* text-align: center; */
+    font-size: 1.3rem;
+    margin-top: 10px;
+    border: 1px solid grey;
+}
+.form-inps:hover{
+    transition: all .4s;
+    background-color: tomato;
+}
+
+.form-inps:focus{
+    /* background-color: tomato; */
+    border: 0px;
+    /* color: white; */
+}
+
+.btn-inp{
+    background-color: rgba(255, 99, 71, 0.61);
+}
+
+#sign-div{
+    /* position: absolute; */
+    box-shadow: 0px 2px 10px grey;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    /* margin-bottom: 1000px; */
+}
+/* #sign-fixer{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+} */
+
+#rand-fixer1{
+    width: 47%;
+}
+#rand-fixer{
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    padding: 75px;
+}
+footer{
+    background-color: rgb(255, 122, 98);
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 10px rgb(0, 0, 0);
+    color: whitesmoke;
+}
+.accordion-button:focus{
+    background-color: #1d1e20;
+    color: white;
+}
+
+
+@media screen and (max-width: 320px) {
+    #rand-fixer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #main-content{
+        flex-direction: column;
+    }
+
+    #rand-fixer1{
+        width: 150%;
+        text-align: center;
+    }
+
+    #main-pic{
+        width: 100%;
+    }
+}

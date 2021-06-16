@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootcss.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="nav-div">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="titlenav" href="#">
+          <div class="logo-fixer">
+            G.recipes
+            <small>O jeito mais fácil de cozinhar</small>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div id="let">
+              <li class="nav-item myclass">
+                <a class="nav-link" aria-current="page" href="#">Início</a>
+              </li>
+            </div>
+
+            <li class="nav-item myclass">
+              <a class="nav-link" href="#rand-fixer1">Sobre</a>
+            </li>
+            <li class="nav-item myclass">
+              <a class="nav-link" href="#sign-area" tabindex="-1" aria-disabled="true">Cadastro</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2 inps" type="search" placeholder="Procurar receitas" aria-label="Search">
+            <button class="btn myclass" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="ramen.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="hamb.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="lasagna.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="card-title" style="text-align: center; margin: 30px; font-size: 2.5rem;">
+    Últimas Receitas
+    <!-- <small>As Últimas Postadas</small> -->
+  </div>
+  <div id="card-div">
+    <div class="card" style="width: 18rem;">
+      <img src="udon.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Udon</h5>
+        <p class="card-text">Tempo de Preparo: 2h</p>
+        <p class="card-text">Dificuldade: <span style="color: orange;">Média</span></p>
+        <a href="#" class="btn btn-cards">Preparar</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="food-5987888_1280.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lasanha (Lasagna)</h5>
+        <p class="card-text">Tempo de Preparo: 1h</p>
+        <p class="card-text">Dificuldade: <span style="color: green;">Fácil</span></p>
+        <a href="#" class="btn btn-cards">Preparar</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="burrito.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Burrito</h5>
+        <p class="card-text">Tempo de Preparo: 30 min</p>
+        <p class="card-text">Dificuldade: <span style="color: green;">Fácil</span></p>
+        <a href="#" class="btn btn-cards">Preparar</a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="centralizer">
+    <div class="ads1">
+      Anúncio Aqui
+    </div>
+  </div>
+  <div class="tits">
+    Udon
+    <small>Culinária Japonesa/Tempo de preparo: 2h/ Dificuldade: Média</small>
+  </div>
+  <div id="main-content">
+    <iframe width=100% height=400px src="https://www.youtube.com/embed/q0O20Px80dI" title="YouTube video player"
+				frameborder="0" style="border-radius: 10px;"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+    <!-- <img id="main-pic" src="C:\Users\Lucas Gurgel\Desktop\recipes\images\udon.jpg" width=50% alt=""> -->
+    <div id="accords1">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Ingredientes
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">1 pacote de macarrão para udon (macarrão japonês)</li>
+                <li class="list-group-item">1 colher sopa de óleo</li>
+                <li class="list-group-item">1 dente de alho espremido</li>
+                <li class="list-group-item">1 peito de frango cortado em cubos</li>
+                <li class="list-group-item">1 pacotinho de tempero de peixe bonito</li>
+                <li class="list-group-item">1 colher café de realçador de sabor</li>
+                <li class="list-group-item">Shoyu a gosto (mais ou menos meia xícara de chá)</li>
+                <li class="list-group-item">1 cebola cortada em rodelas</li>
+                <li class="list-group-item">1 ovo batido</li>
+                <li class="list-group-item">1 xícara de cebolinha picada</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Modo de Preparo
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ol class="list-group list-group-numbered list-group-flush">
+                <li class="list-group-item">Levar ao fogo com bastante água uma panela.</li>
+                <li class="list-group-item">Quando iniciar fervura, acrescentar o marcarrão para udon.</li>
+                <li class="list-group-item">Deixar cozinhar.</li>
+                <li class="list-group-item">Escorrer e resevar.</li>
+                <li class="list-group-item">Em uma panela colocar o óleo</li>
+                <li class="list-group-item">Fritar o alho.</li>
+                <li class="list-group-item">Adicione o frango e refogue até dourar.</li>
+                <li class="list-group-item">Acrescente 2 litros de água fervente.</li>
+                <li class="list-group-item">Colocar o tempero de peixe bonito e o realçador de sabor</li>
+                <li class="list-group-item">Acrescentar o shoyu, aos poucos.</li>
+                <li class="list-group-item">Verificar o sal.</li>
+                <li class="list-group-item">Acrescentar a cebola e o ovo batido, mexa sempre.</li>
+                <li class="list-group-item">Deixe ferver por mais cinco minutos e desligue o fogo.</li>
+                <li class="list-group-item">Acrescente a cebolinha picada.</li>
+                <li class="list-group-item">Em tigelas individuais, colocar o macarrão.</li>
+                <li class="list-group-item">Cobrir com o caldo preparado.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div id="sign-fixer">
+    <!-- <img src="C:\Users\Lucas Gurgel\Desktop\recipes\images\tomato1.jpg" width=40% alt=""> -->
+    <div id="sign-area" class="tits" style="font-size: 2.1rem;">
+      Cadastre-se Hoje Na G.Recipes!
+      <div id="sign-div">
+        <form action="">
+          <table>
+            <tr>
+              <td>
+                <div class="form-floating">
+                  <input type="text" class="form-control form-inps" id="floatingTxt" placeholder="Nome">
+                  <label class="label-sign" for="floatingTxt">Nome</label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control form-inps" id="floatingInput" placeholder="name@example.com">
+                  <label class="label-sign" for="floatingInput">E-mail</label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="form-floating">
+                  <input type="password" class="form-control form-inps" id="floatingPassword" placeholder="Password">
+                  <label class="label-sign" for="floatingPassword">Senha</label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="form-floating">
+                  <input type="password" class="form-control form-inps" id="floatingPassword" placeholder="Password">
+                  <label class="label-sign" for="floatingPassword">Cofirmar Senha</label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <input class="btn myclass btn-inp" type="submit" value="Cadastrar">
+                </div>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <div class="centralizer" id="rand-fixer">
+    <div class="tits">
+      <!-- <img src="C:\Users\Lucas Gurgel\Desktop\recipes\images\tomato1.jpg" width=60% alt=""> -->
+      <div>Sobre A G.Recipes</div> 
+    </div>
+    <div id="rand-fixer1">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a facilisis elit. Mauris pharetra bibendum pharetra.
+      Sed id tellus pretium, tincidunt metus sed, gravida nisl. Integer congue dui at enim egestas, et scelerisque
+      turpis pretium. In blandit metus ac nibh posuere viverra. Phasellus sit amet odio in orci tempor viverra. Vivamus
+      mattis sodales libero, at interdum ipsum convallis consectetur.
+    </div>
+
+  </div>
+  <footer>
+    txt1
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
